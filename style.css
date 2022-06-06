@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+   max-width: 1240px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+  /* header section */
+img{
+    max-width: 100%;
+}
+.header-menu{
+    background:#3498db ;
+}
+.header{
+  
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+    
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 0px 30px;
+    border-right: 1px solid white;
+    line-height: 60px;
+    transition: .5s;
+   
+   
+}
+.header-right ul li a:hover{
+    background: #2980b9;
+}
+
+/* banner section */
+
+.banner{
+background-image: url(https://smartslider3.com/wp-content/uploads/2019/01/photo_slideshow.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 145px;
+ background-position: center;
+
+}
+.banner-cap{
+    text-align: center;
+}
+.banner-cap h3{
+    background: rgba(100, 18, 18, 0.651);
+    color: white;
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.banner-cap h1{
+    background: rgba(36, 89, 125, 0.817);
+    color: white;
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-top: 16px;
+}
+
+/* about section */
+.about-sec{
+}
+.about{
+    padding: 40px;
+}
+.about-us{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.about h1{
+    font-size: 37px;
+    padding: 10px;
+}
+.about p{}
+.about-one {
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+}
+.about-item {
+	float: left;
+	width: 225px;
+	text-align: center;
+	padding: 20px;
+	margin-left: 19px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: 1px 3px 7px 2px black;
+	margin-right: 19px;
+}
+.about-item h3{
+    font-size: 27px;
+}
+.about-item p{
+    color: #8c8382
+}
+.about-item span{
+    background: #3498db;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 26px;
+    color: white;
+    border-radius: 16px 0px 16px 0px;
+}
+.about-item span:hover{
+    background: #7f8c8d;
+}
+
+/* service section */
+
+.service-sec{
+    padding: 40px;
+}
+.service-left-conten{
+    float: left;
+    width: 70%;
+}
+.service-left-notification{
+    float: right;
+    width: 25%;
+}
+.service-item img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border: 3px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 1px 2px 7px 1px #7f8c8dbf;
+}
+.service-item{
+margin-bottom: 30px;
+}
+
+/* notice section */
+.service-left-notification{}
+.service-left-notification h1{
+    font-size: 40px;
+    border-bottom: 1px solid #d35400;
+}
+.service-left-notification ul{}
+.service-left-notification ul li{
+    list-style: none;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 9px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 7px 1px #ddd;
+}
+
+/* footer section */
+
+.footer-sec{
+    background: #2c3e50;
+    padding: 15px 0px;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+    
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+.footer-left p{
+    color: white;
+}
+.footer-right{}
+.footer-right ul{
+    text-align: right;
+}
+.footer-right ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+.footer-right ul li a{
+    color: white;
+    font-size: 30px;
+}
+.footer-right ul li a:hover{
+    color: #f39c12;
+    transition: .5s;
+}
+ 
